@@ -1,35 +1,130 @@
-# Senai-Barueri
-**WEB DESIGNER - FRONT-END** - Carga horária 180 horas.
+# 🌐 GRB - Aplicativos na Medida & Suporte de TI
 
+Seja bem-vindo(a) ao meu repositório! Desenvolvi este site institucional para a **GRB** como projeto prático durante a minha formação no curso de **Web Designer - Front-End** pelo **SENAI Barueri**.
 
-**RESUMO** 
+O objetivo do projeto é apresentar as soluções de desenvolvimento de aplicativos sob medida e manutenção em TI para pequenas e médias empresas, aplicando na prática os conceitos de estruturação semântica, estilização modular e acessibilidade web.
 
-O curso de Qualificação Profissional de Web designer - Front-End tem por objetivo o desenvolvimento de competências relativas à elaboração de páginas para Web, 
-utilizando recursos como linguagens: HTML, CSS, JavaScript bem como ferramentas para confecção de interfaces gráficas para sites personalizados.
+---
 
-**PROGRAMAÇÃO DO CURSO**
+## 🎓 Contexto Acadêmico
 
-Identificar os tipos de software;
-<br>Manipular o sistema operacional considerando:
-<br>Criando pastas;
-<br>Copiando e colando pastas e arquivos;
-<br>Salvando arquivos em suas extensões;
-<br>Renomeando pastas e arquivos;
-<br>Identificando as unidades de medidas utilizadas na informática;
-<br>Criar página para internet editando códigos da linguagem HTML;
-<br>Estilizar documentos em páginas HTML utilizando linguagem CSS;
-<br>Criar páginas dinâmicas por meio da linguagem JavaScript;
-<br>Integrar recursos dinâmicos da linguagem Java Script a páginas HTML;
-<br>Identificar bibliotecas e frameworks;
-<br>Instalar bibliotecas e frameworks;
-<br>Configurar bibliotecas e frameworks em páginas;
-<br>Identificar conceitos de UI/UX;
-<br>Prototipar páginas utilizando conceitos de UI/UX;
-<br>Editar imagens bitmaps preparando-as para utilização em páginas Web;
-<br>Editar imagens vetoriais preparando-as para utilização em páginas Web;
-<br>Projetar website;
-<br>Desenvolver website;
-<br>Realizar testes de usabilidade no website;
-<br>Hospedar website;
-<br>Demonstrar autogestão;
-<br>Demonstrar raciocínio lógico.
+- **Instituição:** SENAI Barueri
+- **Curso:** Qualificação Profissional de Web Designer - Front-End
+- **Carga Horária:** 180 horas
+
+### Resumo do Curso
+O curso teve como objetivo o desenvolvimento de competências relativas à elaboração de páginas web personalizadas, utilizando linguagens como HTML, CSS e JavaScript, além de ferramentas para confecção de interfaces gráficas, prototipagem e testes.
+
+### Competências e Programação Desenvolvidas:
+- **Linguagens e Frameworks:** Criação de código HTML semântico, estilização CSS, introdução ao JavaScript e integração de recursos dinâmicos/frameworks.
+- **UI/UX e Design:** Prototipagem de páginas baseada em conceitos de experiência e interface do usuário, além de edição de imagens bitmap e vetoriais para a web.
+- **Sistemas e Versionamento:** Manipulação e organização de arquivos/pastas, raciocínio lógico, testes de usabilidade e hospedagem de websites.
+
+---
+
+## 🚀 Funcionalidades e Seções do Site
+
+O site é composto por uma landing page completa e páginas secundárias dedicadas, oferecendo uma navegação fluida e intuitiva:
+
+- **Home (`index.html`)**: Visão geral dos serviços, chamada principal, diferenciais competitivos e atalhos para todas as áreas.
+- **Sobre (`sobre.html`)**: Detalhes da filosofia de trabalho, inclusão de manutenção nos planos e suporte a múltiplas plataformas (Android, iOS, Windows).
+- **Planos (`planos.html`)**: Apresentação clara das opções de contratação (Start, Mega e Ultra), com detalhes de manutenções mensais e suporte.
+- **Destaques (`destaques.html`)**: Central de artigos e conteúdos relevantes sobre tecnologia, terceirização de TI e fotografia mobile.
+- **Institucional (`institucional.html`)**: Missão da empresa, informações de endereço, contatos diretos e apoio a projetos parceiros.
+- **Contato (`contato.html`)**: Formulário funcional e acessível para captação de mensagens de clientes.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5 Semântico**: Estruturação acessível com uso adequado de tags como `<header>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<address>` e `<footer>`.
+- **CSS3 Modular**: Organização de estilos dividida por componentes (`cabecalho.css`, `planos.css`, `contato.css`, etc.), facilitando a manutenção.
+- **Metodologia BEM**: Nomenclatura padronizada de classes CSS para evitar conflitos de escopo e garantir reuso.
+- **Design Responsivo**: Adaptação para dispositivos móveis, tablets e desktops via `viewport` e layout flexível.
+- **Google Fonts**: Integração das fontes *Montserrat* e *Open Sans* para uma tipografia moderna e legível.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+.
+├── css/
+│   ├── base.css
+│   ├── cabecalho.css
+│   ├── chamada.css
+│   ├── contato.css
+│   ├── destaques.css
+│   ├── diferenciais.css
+│   ├── institucional.css
+│   ├── planos.css
+│   ├── reset.css
+│   ├── rodape.css
+│   └── sobre.css
+├── img/
+│   ├── android.png
+│   ├── apple.png
+│   ├── dicas-fotografia.png
+│   ├── facebook.png
+│   ├── instagram.png
+│   ├── logo.png
+│   ├── sobre-grb.png
+│   ├── ti.jpg
+│   ├── twitter.png
+│   └── windowsphone.png
+├── contato.html
+├── destaques.html
+├── index.html
+├── institucional.html
+├── planos.html
+├── sobre.html
+└── README.md
+```
+
+---
+
+## 💻 Como Executar o Projeto
+
+Por se tratar de um projeto estático (HTML/CSS), não é necessária a instalação de dependências complexas:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/grb-web.git
+   cd grb-web
+   ```
+
+2. **Abra no navegador:**
+   - Dê um duplo clique no arquivo `index.html`, ou
+   - Utilize a extensão **Live Server** no VS Code para visualizar com recarregamento automático.
+
+---
+
+## ⚡ Boas Práticas Aplicadas
+
+- **Navegação Consistente**: Links internos padronizados em letras minúsculas para evitar erros 404 em servidores como GitHub Pages ou Vercel.
+- **Acessibilidade (a11y)**: Textos alternativos (`alt`) descritivos em imagens e remoção de atributos `tabindex` prejudiciais à navegação por teclado.
+- **Otimização de Mídia**: Atributos `loading="lazy"` aplicados em vídeos e imagens secundárias.
+
+---
+
+## 🤝 Contribuições
+
+Sugestões e melhorias no código são sempre bem-vindas!
+
+1. Faça um **Fork** do repositório.
+2. Crie uma branch para sua alteração: `git checkout -b feature/nova-pagina`.
+3. Faça o commit das suas alterações: `git commit -m 'feat: Adiciona nova funcionalidade'`.
+4. Envie para a branch remota: `git push origin feature/nova-pagina`.
+5. Abra um **Pull Request**.
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença [MIT](LICENSE). Sinta-se à vontade para utilizar o código para estudos e aprimoramento.
+
+---
+
+## ✉️ Contato
+
+Desenvolvido por **Francisco**.
